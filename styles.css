@@ -1,0 +1,67 @@
+@import "normalize.css";
+
+body {
+  background-image: url("images/galaxy.jpg");
+  color: White;
+  /* background-color: black; */
+  /* opacity: 0.1; */
+}
+
+.topnav {
+  position: relative;
+}
+
+main {
+  padding: 50px 50px 50px 50px;
+}
+
+.blogEntry {
+  background: rgba(255,255,255,0.6);
+  position: relative;
+  color: black;
+  outline: 5px solid darkblue;
+  outline-offset: 15px;
+  padding-bottom: 15px;
+  padding-top: 1px;
+}
+
+p {
+  margin: 25px 25px 25px 35px;
+}
+
+#location {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 10em;
+}
+
+#problemPart {
+  text-decoration: underline dotted blue;
+}
+
+h2  {
+  margin-left: 15px;
+}
+
+.topnav {
+  padding-bottom: 3rem;
+}
+
+.topnav a{
+  float: left;
+  color: lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #dddd;
+  color: blue;
+}
+
+.topnav a.active {
+  background-color: lightblue;
+  color: black;
+}
